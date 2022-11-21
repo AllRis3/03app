@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #23252C;
+    font-family: serif, Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.MyPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgContainer{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    background-color: #1A1B21;
+    padding: 0;
+    margin: 0;
+}
+.img{
+    width: 300px;
+    object-fit: cover;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.imgContainer > h1{
+    margin: 1rem 0 0 0;
+    font-size: 2rem;
+}
+.imgContainer > h4{
+    margin: 0.6rem;
+    font-size: 1rem;
+    color: aqua;
+}
+.buttonsContainer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.emailBtn{
+    width: 120px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 0.4rem;
+}
+.linkedinBtn{
+    width: 120px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 0.4rem;
+    color: #ffffff;
+    background-color: #5093E2;
+}
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 330px;
+    background-color: #1A1B21;
+}
+.aboutSection{
+    color: white;
+    width: 260px;
+}
+.interestsSection{
+    color: white;
+    width: 260px;
+    
+}
+.footerImages{
+    display: flex;
+    width: 300px;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #161619;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+
+}
