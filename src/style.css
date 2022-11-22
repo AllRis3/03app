@@ -50,6 +50,11 @@ body{
     align-items: center;
     gap: 8px;
     border-radius: 0.4rem;
+    cursor: pointer;
+}
+.emailBtn:hover{
+    box-shadow: inset 200px 0 0 0 #929293;;
+
 }
 .linkedinBtn{
     width: 120px;
@@ -61,6 +66,10 @@ body{
     border-radius: 0.4rem;
     color: #ffffff;
     background-color: #5093E2;
+    cursor: pointer;
+}
+.linkedinBtn:hover{
+  box-shadow: inset 200px 0 0 0 #54b3d6;;
 }
 .infoContainer{
     display: flex;
